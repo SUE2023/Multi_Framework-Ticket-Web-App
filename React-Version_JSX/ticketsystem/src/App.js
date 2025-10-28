@@ -8,7 +8,8 @@ import TicketManagement from "./pages/TicketManagement";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Dashboard from "./pages/Dashboard";
 import "./App.css";
-import mockUsers from '../shared/mockUsers.json';
+//import mockUsers from '../shared/mockUsers.json'; # due to known support of such import
+import mockUsers from './mockUsers.json';
 
 // Home component (moved inside App.js, optional)
 function Home() {
