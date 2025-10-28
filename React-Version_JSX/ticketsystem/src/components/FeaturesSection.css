@@ -1,0 +1,23 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px 20px;
+  background: #f9fafb;
+  gap: 30px;
+}
+
+.feature-box {
+  background: green; /*white;*/
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
