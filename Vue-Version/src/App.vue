@@ -1,22 +1,18 @@
-<script setup lang="ts">
+<!--<script setup lang="ts">
 import FeaturesSection from './components/FeaturesSection.vue'
-</script>
+</script>-->
 
 <template>
   <div class="app-container">
     <div class="logos">
-      <a href="https://vite.dev" target="_blank">
-        <img src="/Logo.jpg" class="logo" alt="Arsenic logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/Logo.jpg" class="logo vue" alt="Vue logo" />
-      </a>
+	    <img src="./Logo.jpg"  alt="Arsenic Logo" width=150px>  
     </div>
 
     <!-- Main feature section -->
-    <FeaturesSection msg="Features" />
+   <!-- <FeaturesSection msg="Features" /> -->
     <!-- Routers of the Application-->
 	<router-view />
+		
     <!-- Footer section -->
     <footer class="app-footer">
       <p>
