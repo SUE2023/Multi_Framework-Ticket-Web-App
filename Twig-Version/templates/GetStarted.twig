@@ -1,0 +1,23 @@
+<h2>📝 PHP Registration/Profile Form</h2>
+<p><span class="error">* required field</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+  Name: <input type="text" name="name" value="<?php echo $name;?>">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+
+  E-mail: <input type="email" name="email" value="<?php echo $email;?>">
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+
+  Role:
+  <select name="role">
+    <option value="agent" <?php if ($role == 'agent') echo 'selected'; ?>>Agent</option>
+    <option value="admin" <?php if ($role == 'admin') echo 'selected'; ?>>Admin</option>
+    <option value="user" <?php if ($role == 'user') echo 'selected'; ?>>Customer</option>
+  </select>
+
+  <br><br>
+
+  <input type="submit" name="submit" value="Register/Save">
+</form>

@@ -1,0 +1,14 @@
+<h2>🔑 PHP Login</h2>
+<p><span class="error">* required field</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+  Username or Email: <input type="text" name="login_identifier" value="<?php echo $login_identifier;?>">
+  <span class="error">* <?php echo $identifierErr;?></span>
+  <br><br>
+
+  Password: <input type="password" name="password" value=""> 
+  <span class="error">* <?php echo $passwordErr;?></span>
+  <br><br>
+
+  <input type="submit" name="login_submit" value="Login">
+</form>
