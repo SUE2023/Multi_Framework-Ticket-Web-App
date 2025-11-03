@@ -2,7 +2,7 @@
 
 Built using **React**, **Vue 3**, and **Twig**, all sharing common logic, mock data, and backend structure.
 
-![Multi-Framework App Preview](docs/multi-framework-preview.png)
+![Multi-Framework App Preview](shared/ Multi-Framework Ticket App.png)
 ## 🔗 Framework Implementations
 Explore each implementation:
 
