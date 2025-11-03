@@ -1,3 +1,5 @@
+
+![Multi-Framework App Logos](shared/Multi-Framework Ticket App.png)
 ## Multi-Framework Ticket Web App
 
 Built using **React**, **Vue 3**, and **Twig**, all sharing common logic, mock data, and backend structure.
