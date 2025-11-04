@@ -1,14 +1,13 @@
+![Twig Ticket App Screenshot](../shared/PHPTwig.png)
 # 🪶 Twig Version — Multi-Framework Ticket Web App
 
 This is the **Twig** template-based implementation of the Ticket Web App. It represents the server-rendered version using HTML, CSS, and JavaScript enhanced by Twig syntax.
-
-![Twig Ticket App Screenshot](../shared/twig-preview.png)
 
 ---
 
 ## 🚀 Getting Started
 
-git clone
+clone  Multi_Framework-Ticket-Web-App
 
 ### 1️⃣ Navigate to the Twig version folder:
 

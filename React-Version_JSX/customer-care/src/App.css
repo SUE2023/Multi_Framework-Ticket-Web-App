@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  text-align: center;
+  padding: 120px 20px 80px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.hero button {
+  background-color: #61dafb;
+  color: #20232a;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #4ec8e0;
+  transform: translateY(-3px);
+}
+
+/* Decorative floating circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float 8s ease-in-out infinite;
+}
+
+.circle.small {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  top: 40px;
+  left: 60px;
+}
+
+.circle.medium {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  bottom: 100px;
+  right: 80px;
+  animation-delay: 3s;
+}
+
+.circle.large {
+  width: 120px;
+  height: 120px;
+  background-color: #ffffff;
+  bottom: 40px;
+  left: 100px;
+  animation-delay: 5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* ---------------- OTHER SECTIONS OF THE PAGE ---------------- */
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.page {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.page a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page a:hover {
+  text-decoration: underline;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #20232a;
+  color: #61dafb;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* ---------------- RESPONSIVENESS ---------------- */
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero button {
+    padding: 10px 22px;
+    font-size: 0.9rem;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+    min-height: 20vh;
+  }
+
+  .App-footer {
+    font-size: 0.8rem;
+  }
+}
+

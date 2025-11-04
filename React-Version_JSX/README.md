@@ -1,3 +1,4 @@
+![React Version]/(../shared/React.png)
 ⚛️ React Version — Multi-Framework Ticket Web App
 
 This is the React (JSX) implementation of the Multi-Framework Ticket Web App, handling login, dashboard, and ticket management functionalities using React Router and localStorage-based session management.

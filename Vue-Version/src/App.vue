@@ -29,6 +29,8 @@ import FeaturesSection from './components/FeaturesSection.vue'
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .logos {
@@ -41,11 +43,14 @@ import FeaturesSection from './components/FeaturesSection.vue'
 }
 
 .app-footer {
-  background-color: #f5f5f5;
+  background-color: #20232a;
   padding: 1rem 0;
   font-size: 14px;
-  color: #555;
+  color: #61dafb;
   border-top: 1px solid #ddd;
+  width:100%;
+  position: fixed;
+  bottom:0;
 }
 </style>
 
